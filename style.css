@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    background-image: url(./image/depositphotos_303845814-stock-photo-tomato-soup-with-grilled-cheese.jpg);
+    background-position: top;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.734);
+    padding: 0px 2vw;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.left-nav h1{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 0.8;
+}
+.right-nav a{
+    text-decoration: none;
+    margin: 0vw 1vw;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 700;
+    background-color:transparent;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.right-nav #home{
+    background-color: #d50000;
+}
+.right-nav a:hover{
+background-color:#d50000;
+}
+.right-nav i{
+    font-weight: 20px;
+    margin: 10px;
+}
+.containt{
+    text-align: center;
+
+}
+.containt h1{
+font-size: 5vw;
+text-transform: uppercase;
+line-height: 2;
+font-weight: 800;
+white-space: 5;
+font-family: sans-serif;
+color: #fff;
+margin-top: 15vh;
+
+
+}
+.containt button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    background-color: #d50000;
+    color: #fff;
+}
+.containt button:hover{
+    background-color: #fff;
+    color: #d50000;
+}
+/* ..........................................................................  */
+section{
+    width: 100%;
+   /* height: 150vh; */
+    font-family: sans-serif;
+    overflow: hidden;
+
+}
+section h1{
+    text-align: center;
+    margin-top: 8vh;
+    font-weight: 800;
+    color: #d50000;
+    font-size: 10vh;
+}
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+
+}
+section .div .min-div{
+    height: 40vh;
+    width: 50vh;
+    background-color: red;
+    margin-top: 10vh;
+    border: none;
+    border-radius:10px ;
+    position: relative;
+    overflow: hidden;
+}
+.min-div img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    
+    
+}
+.min-div h2{
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 900;
+    font-size: 7vh;
+    scale: 1 ;
+}
+.min-div h2:hover{
+scale: 1.2;
+
+}
+section .card{
+    display: flex;
+    justify-content: center;
+    margin: 15vh;
+    text-align: center;
+    gap: 10vw;
+}
+section .left-card p{
+   padding: 2vh;
+
+}
+section .left-card button{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #d50000;
+    border-radius: 5px;
+    background-color: #d50000;
+    color: #fff;
+}
+section .left-card button:hover{
+    background-color: #fff;
+    color: black;
+}
+section .right-card img{
+    width: 30vw;
+    height: 50vh;
+}
+/* .........................................................................  */
+section .head{
+    width: 100%;
+    height: 20vh;
+    background-color: #d50000;
+    color: #fff;
+    text-align: center;
+}
+.head h1{
+    color: #fff;
+    padding-top: 30px;
+    font-size: 40px;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+.container .left-con{
+width: 50%;
+height: 100vh;
+}
+.left-con img{
+    width: 100%;
+    height: 100%;
+}
+.container .right-con{
+    padding-left:10em;
+}
+.container .right-con p{
+    color: rgba(0, 0, 0, 0.57);
+    margin-top: 4em;
+    font-size: 5;
+}
+/* ............................................................ */
+.container1{
+    width: 100%;
+    height: 100vh;
+    /* background-color:green; */
+    display: flex;
+}
+.right-con1{
+    width: 50%;
+    height: 100vh;
+}
+.left-con1{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+.right-con1 img{
+    width: 100%;
+    height: 100%;
+}
+.container1 .left-con1 p{
+    color: rgba(0, 0, 0, 0.57);
+    margin-top: 4em;
+    font-size: 5;
+}
+/* ................................................................  */
+.container2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.left-con2 img{
+    width: 100%;
+    height: 100%;
+}
+.right-con2{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+.left-con2{
+    width: 50%;
+    height: 100vh;
+}
+.container2 .right-con2 p{
+    color: rgba(0, 0, 0, 0.57);
+    margin-top: 4em;
+    font-size: 5;
+}
+/* ................................................ ....................  */
+.container3{
+    width: 100%;
+    height: 100vh;
+    /* background-color:green; */
+    display: flex;
+}
+.right-con3{
+    width: 50%;
+    height: 100vh;
+}
+.left-con3{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+}
+.right-con3 img{
+    width: 100%;
+    height: 100%;
+}
+.container3 .left-con3 p{
+    color: rgba(0, 0, 0, 0.57);
+    margin-top: 4em;
+    font-size: 5;
+}
+/* ............................................................................  */
+footer{
+    width: 100%;
+    /* height: 90vh; */
+    text-align: center;
+    background-color: #d50000;
+}
+footer .head h3{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10vh;
+}
+
+footer .head i{
+    background-color: #fff;
+    color: #d50000;
+    padding: 6px;
+    border-radius: 50%;
+}
+footer .center img{
+    width: 100px;
+    height: 100px;
+    margin: 10vh;
+}
+footer .center i{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.328);
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+footer .center p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10vh;
+    font-family: sans-serif;
+}
+footer .center p:hover{
+    color: #000;
+}
+footer .center i:hover{
+    background-color: black;
+    font-weight: 600;
+    
+}
+footer .bottom{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: #fff;
+    padding-top: 3vh;
+    margin-top: 8vh;
+    font-family: sans-serif;
+}
+/* .......................................................responsip */
+@media (max-width: 600px) {
+    header{
+        height: 80vh;
+    }
+   
+
+nav{
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0px 2vw;
+}
+.left-nav h1{
+    font-weight: 800;
+    font-size: 15px;
+}
+.right-nav a{
+    margin: 1px 1px;
+    font-size: 9px;
+    font-weight: 500;
+    background-color:transparent;
+    padding: 0px;
+    letter-spacing: 3;
+}
+.right-nav #home{
+    background-color: transparent;
+}
+
+.right-nav i{
+    margin: 2px;
+}
+.containt{
+    text-align: center;
+
+}
+.containt h1{
+font-size: 10vw;
+color: #fff;
+margin-top: 25vh;
+line-height: 2;
+
+
+}
+.containt button{
+    margin-top: 18vh;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #d50000;
+    color: #fff;
+}
+.containt button:hover{
+    background-color: #fff;
+    color: #d50000;
+}
+/* ..........................................................................  */
+
+section h1{
+    margin-top: 8vh;
+    font-size: 5vh;
+}
+.div{
+    flex-direction: column;
+    gap: 2px;
+}
+section .div .min-div{
+    height: 30vh;
+    width: 40vh;
+}
+
+.min-div h2{
+    font-weight: 800;
+    font-size: 5vh;
+}
+
+section .card{
+     flex-direction: column;
+    margin: 10vh;
+    gap: 5px;
+}
+section .left-card p{
+   padding: 0vh;
+   margin-bottom: 20px;
+
+}
+section .left-card button{
+    padding: 15px 20px;
+    font-size: 20px;
+}
+section .right-card img{
+    width: 70vw;
+    height: 60vh;
+}
+/* .........................................................................  */
+section .head{
+    height: 10vh;
+}
+.head h1{
+    padding-top: 30px;
+    font-size: 15px;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+}
+.container .left-con{
+width: 100%;
+height: 100vh;
+}
+.left-con img{
+    width: 100%;
+    height: 100%;
+    
+}
+.container .right-con{
+    padding-left:3em;
+}
+.container .right-con p{
+    margin-top: 2em;
+    font-size: 5;
+}
+/* ............................................................ */
+.container1{
+    flex-direction: column;
+}
+.right-con1{
+    width: 100%;
+}
+.left-con1{
+    width: 100%;
+}
+.container1 .left-con1 p{
+    margin-top: 2em;
+    font-size: 5;
+}
+/* ................................................................  */
+.container2{
+    flex-direction: column;
+}
+
+
+.right-con2{
+    width: 100%;
+}
+.left-con2{
+    width: 100%;
+    margin-top: 5px;
+}
+.container2 .right-con2 p{
+    margin-top: 2em;
+}
+/* ................................................ ....................  */
+.container3{
+    flex-direction: column;
+}
+.right-con3{
+    width: 100%;
+}
+.left-con3{
+    width: 100%;
+}
+
+.container3 .left-con3 p{
+    margin-top: 2em;
+}
+/* ............................................................................  */
+footer{
+    overflow: hidden;
+}
+footer .head h3{
+    font-size: 25px;
+}
+
+footer .center i{
+    padding: 10px;
+    margin-left: 15px;
+}
+footer .center p{
+    font-size: 10px;
+}
+footer .bottom{
+    height: 5vh;
+    padding-top: 2vh;
+    font-size: 11px;
+    color: #ffffff64;
+    font-weight: 100;
+} 
+}
