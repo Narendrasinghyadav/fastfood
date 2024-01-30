@@ -29,11 +29,20 @@ nav{
     top: 0;
     z-index: 99;
 }
-.left-nav h1{
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 0.8;
+/* nav .icon i{
+     display: flex; 
+    margin: 0px 10px;
+    font-size: 20px;
+    opacity: 1;   
+} */
+nav .icon{
+    display: flex;
+    align-items: center;
 }
+.left-nav img{
+    width: 170px;
+}
+
 .right-nav a{
     text-decoration: none;
     margin: 0vw 1vw;
@@ -51,10 +60,7 @@ nav{
 .right-nav a:hover{
 background-color:#d50000;
 }
-.right-nav i{
-    font-weight: 20px;
-    margin: 10px;
-}
+
 .containt{
     text-align: center;
 
@@ -333,7 +339,51 @@ footer .bottom{
     margin-top: 8vh;
     font-family: sans-serif;
 }
+.site-btn{
+    position: absolute;
+    width: 200px;
+    height: 465px;
+    background-color:rgba(0, 0, 0, 0.981);
+    top: 0px;
+    right: -200px;
+    z-index: -1;
+    padding-top: 60px;
+}
+.icon h4 i{
+    /* color: #000; */
+    color: #fff;
+    font-size: 40px;
+    margin: 40px;
+    opacity: 1;
+
+}
+.site-btn .btn1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+
+} 
+.btn2{
+    margin-top: 50px;
+}
+
+    
+.site-btn .btn2 i{
+    font-size: 20px;
+    margin-left: 20px;
+    /* margin: 0px 20px; */
+
+}
+
+
+
 /* .......................................................responsip */
+
 @media (max-width: 600px) {
     header{
         height: 80vh;
@@ -342,12 +392,11 @@ footer .bottom{
 
 nav{
     height: 10vh;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 2vw;
 }
-.left-nav h1{
-    font-weight: 800;
-    font-size: 15px;
+.left-nav img{
+    width: 150px;
 }
 .right-nav a{
     margin: 1px 1px;
@@ -356,14 +405,45 @@ nav{
     background-color:transparent;
     padding: 0px;
     letter-spacing: 3;
+    opacity: 0;
+}
+.right-nav #home{
+    background-color: #d50000;
+}
+.right-nav a:hover{
+background-color:transparent;
+color: #ffffff81;
 }
 .right-nav #home{
     background-color: transparent;
 }
 
-.right-nav i{
+nav .icon i{
     margin: 2px;
+    opacity: 0;
 }
+.icon h4 i{
+    /* color: #000; */
+    color: #fff;
+    font-size: 40px;
+    margin: 40px;
+    opacity: 1;
+
+}
+.site-btn{
+    position: absolute;
+    width: 200px;
+    height: 465px;
+    background-color:rgba(0, 0, 0, 0.981);
+    top: 0;
+    right: -200px;
+    z-index: -1;
+}
+.site-btn .btn1 a{
+    font-size: 15+px;
+} 
+ 
+
 .containt{
     text-align: center;
 
